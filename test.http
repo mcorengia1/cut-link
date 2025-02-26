@@ -4,3 +4,10 @@ content-type: application/json
 {
     "url" : "https://www.x.com"
 }
+
+### Acceder a la url acortada
+
+GET http://localhost:3000/1b53e6ab
+content-type: application/json
+
+

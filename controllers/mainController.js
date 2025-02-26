@@ -1,3 +1,5 @@
+import { UrlModel } from "../models/local/url.js";
+
 export class MainController {
     static async resolveUrl(req, res) {
         const { id } = req.params;
